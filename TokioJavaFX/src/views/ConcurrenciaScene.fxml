@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="187.0" prefWidth="493.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="controllers.ConcurrenciaSceneController">
+   <children>
+      <ProgressBar fx:id="progress" layoutX="57.0" layoutY="47.0" prefHeight="18.0" prefWidth="391.0" progress="0.0" />
+      <Button layoutX="50.0" layoutY="135.0" mnemonicParsing="false" onAction="#aumentarContador" text="Aumentar" />
+      <Label fx:id="lContador" layoutX="144.0" layoutY="139.0" text="Label" />
+      <Button layoutX="425.0" layoutY="135.0" mnemonicParsing="false" onAction="#iniciarProgreso" text="Iniciar" />
+      <Label fx:id="lProgress" layoutX="239.0" layoutY="21.0" text="Label" />
+      <ProgressBar fx:id="progress1" layoutX="57.0" layoutY="104.0" prefHeight="18.0" prefWidth="391.0" progress="0.0" />
+      <Label fx:id="lProgress1" layoutX="239.0" layoutY="77.0" text="Label" />
+   </children>
+</AnchorPane>

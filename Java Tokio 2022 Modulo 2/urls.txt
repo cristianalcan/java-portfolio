@@ -1,0 +1,2 @@
+https://guru99.es/buffered-reader-in-java/
+https://picodotdev.github.io/blog-bitix/2018/04/introduccion-a-nio-2-el-sistema-de-entrada-salida-de-java/

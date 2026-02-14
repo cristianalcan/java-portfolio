@@ -1,0 +1,12 @@
+# Compilados Java
+**/bin/
+**/target/
+**/*.class
+
+# Eclipse internos
+.metadata/
+RemoteSystemsTempFiles/
+
+# Sistema
+.DS_Store
+Thumbs.db

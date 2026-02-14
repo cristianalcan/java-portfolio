@@ -1,0 +1,3 @@
+module ProyectoCalculos {
+	requires Calculos;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 19 abr 2023 22:12:32 by Hibernate Tools 6.1.3.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="trabajadores" name="Nomina" optimistic-lock="none" table="nomina">
+        <id name="id" type="java.lang.Integer">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>
+        <many-to-one class="Personal" fetch="select" name="personal">
+            <column length="9" name="id_personal" not-null="true"/>
+        </many-to-one>
+        <property name="mes" type="int">
+            <column name="mes" not-null="true"/>
+        </property>
+        <property name="salario" type="double">
+            <column name="salario" not-null="true" precision="22" scale="0"/>
+        </property>
+        <property name="irpf" type="int">
+            <column name="irpf" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

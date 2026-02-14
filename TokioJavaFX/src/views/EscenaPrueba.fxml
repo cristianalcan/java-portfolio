@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.EscenaPruebaController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Button" />
+      <CheckBox fx:id="cbGrupo1" layoutX="14.0" layoutY="51.0" mnemonicParsing="false" text="Grupo 1" />
+      <CheckBox fx:id="cbGrupo2" layoutX="14.0" layoutY="79.0" mnemonicParsing="false" text="Grupo 2" />
+      <CheckBox layoutX="14.0" layoutY="105.0" mnemonicParsing="false" text="Grupo 3" />
+      <ChoiceBox layoutX="14.0" layoutY="142.0" prefWidth="150.0" />
+      <ComboBox fx:id="c" layoutX="184.0" layoutY="142.0" onAction="#combo" prefWidth="150.0" promptText="hola" />
+      <DatePicker layoutX="14.0" layoutY="188.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="378.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="87.0" layoutY="18.0" text="Presiona el boton" />
+      <ListView fx:id="lista" layoutX="378.0" layoutY="188.0" prefHeight="200.0" prefWidth="200.0" />
+      <MenuBar layoutX="23.0" layoutY="410.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Accion X" />
+                  <CheckMenuItem mnemonicParsing="false" text="Seleccionar algo" />
+                  <RadioMenuItem mnemonicParsing="false" text="Opcion2" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Unspecified Menu">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Unspecified Menu">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <PasswordField layoutX="27.0" layoutY="245.0" />
+      <ProgressBar layoutX="206.0" layoutY="365.0" prefHeight="18.0" prefWidth="158.0" progress="0.0" />
+      <RadioButton layoutX="23.0" layoutY="280.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton layoutX="22.0" layoutY="306.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton layoutX="23.0" layoutY="334.0" mnemonicParsing="false" text="RadioButton" />
+      <TableView fx:id="tabla" layoutX="203.0" layoutY="184.0" prefHeight="172.0" prefWidth="164.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TextField fx:id="tField" layoutX="211.0" layoutY="14.0" onAction="#tfField" />
+      <TextArea fx:id="taArea" layoutX="206.0" layoutY="44.0" onKeyTyped="#capturarTexto" prefHeight="87.0" prefWidth="158.0" />
+   </children>
+</Pane>
