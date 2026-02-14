@@ -1,6 +1,6 @@
-# Java Portfolio – Cristian Alcántara (Eclipse, 2022)
+# Java Portfolio – Cristian Alcántara (Eclipse, 2023)
 
-Repositorio con prácticas y proyectos en Java organizados por módulos (Java Tokio 2022).
+Repositorio con prácticas y proyectos en Java organizados por módulos (Java Tokio 2023).
 
 ## Proyectos destacados (para revisión)
 
